@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QLQ-t4-6NS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--home-->
+        <scene sceneID="5cd-uj-2Sy">
+            <objects>
+                <viewController id="LLN-o6-m0w" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZT6-sF-U3n"/>
+                        <viewControllerLayoutGuide type="bottom" id="v2m-BN-GwF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2FY-ZK-Gg3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.20775862070000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="home" image="普通の家のアイコン.png" selectedImage="普通の家のアイコン.png" id="flL-7C-syM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QaY-PN-I9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="120.98950524737631"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jl3-kA-9Hm">
+            <objects>
+                <viewController id="ieb-I5-ZBp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BIs-hw-xEo"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fcj-bf-2BU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bun-JE-JSG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" systemItem="search" id="qLW-sf-ReV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Bv-UR-2d6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="834.33283358320841"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wx9-Vc-8up">
+            <objects>
+                <viewController id="FJx-0q-TPV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rbe-H4-37k"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ese-hA-oIm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JSS-ZB-WZV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.58246228450000004" green="0.93375538790000001" blue="0.98666487069999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="viI-up-FHs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Pp-Td-oBK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="1566"/>
+        </scene>
+        <!--お知らせ-->
+        <scene sceneID="5de-0o-qtb">
+            <objects>
+                <viewController id="GUS-oz-Bnb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ox4-sB-qMY"/>
+                        <viewControllerLayoutGuide type="bottom" id="kFo-wO-IOd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bfQ-NI-dbk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.043137254899999998" green="0.30588235289999999" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="お知らせ" image="ベルの無料のアイコン素材 その2.png" selectedImage="ベルの無料のアイコン素材 その2.png" id="Em5-DL-Jqj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ce8-UH-JeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="2368"/>
+        </scene>
+        <!--Big Center Tab Bar Controller-->
+        <scene sceneID="u9k-Bf-BQG">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="QLQ-t4-6NS" customClass="BigCenterTabBarController" customModule="SampleAppTurtle" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Ibp-TI-enb">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LLN-o6-m0w" kind="relationship" relationship="viewControllers" id="6Uf-3o-tGv"/>
+                        <segue destination="ieb-I5-ZBp" kind="relationship" relationship="viewControllers" id="7Zm-eq-TBS"/>
+                        <segue destination="FJx-0q-TPV" kind="relationship" relationship="viewControllers" id="qbB-Yv-h90"/>
+                        <segue destination="GUS-oz-Bnb" kind="relationship" relationship="viewControllers" id="p7x-Qh-1JQ"/>
+                        <segue destination="Mx9-Uo-VLm" kind="relationship" relationship="viewControllers" id="JnH-aT-bxd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ybb-Tt-d83" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952.79999999999995" y="1565.6671664167918"/>
+        </scene>
+        <!--プロフィール-->
+        <scene sceneID="tkb-1e-2KM">
+            <objects>
+                <viewController id="Mx9-Uo-VLm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gGn-eZ-2fo"/>
+                        <viewControllerLayoutGuide type="bottom" id="YaK-yf-Cta"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EeD-jb-hXr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="プロフィール" image="ベルの無料のアイコン素材 その2.png" selectedImage="ベルの無料のアイコン素材 その2.png" id="Yzy-hY-CK2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R5u-tb-IyL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="3108"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ベルの無料のアイコン素材 その2.png" width="32" height="32"/>
+        <image name="普通の家のアイコン.png" width="32" height="32"/>
+    </resources>
+</document>

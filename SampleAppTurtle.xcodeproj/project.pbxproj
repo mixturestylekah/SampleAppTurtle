@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960A319C1D9E61DA00A9D34E /* center_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 960A319B1D9E61DA00A9D34E /* center_button@2x.png */; };
+		960D60C51D9E33B10054021D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D60C41D9E33B10054021D /* AppDelegate.swift */; };
+		960D60C71D9E33B10054021D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D60C61D9E33B10054021D /* ViewController.swift */; };
+		960D60CA1D9E33B10054021D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960D60C81D9E33B10054021D /* Main.storyboard */; };
+		960D60CC1D9E33B10054021D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960D60CB1D9E33B10054021D /* Assets.xcassets */; };
+		960D60CF1D9E33B10054021D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960D60CD1D9E33B10054021D /* LaunchScreen.storyboard */; };
+		960D60DA1D9E33B10054021D /* SampleAppTurtleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D60D91D9E33B10054021D /* SampleAppTurtleTests.swift */; };
+		960D60E51D9E33B10054021D /* SampleAppTurtleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D60E41D9E33B10054021D /* SampleAppTurtleUITests.swift */; };
+		960D60F81D9E35D20054021D /* カメラアイコン9.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D60F71D9E35D20054021D /* カメラアイコン9.png */; };
+		960D60FA1D9E35DE0054021D /* 普通の家のアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D60F91D9E35DE0054021D /* 普通の家のアイコン.png */; };
+		960D60FC1D9E35EF0054021D /* ベルの無料のアイコン素材 その2.png in Resources */ = {isa = PBXBuildFile; fileRef = 960D60FB1D9E35EF0054021D /* ベルの無料のアイコン素材 その2.png */; };
+		960D61021D9E3A030054021D /* BigCenterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D61011D9E3A030054021D /* BigCenterTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960D60D61D9E33B10054021D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960D60B91D9E33B10054021D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960D60C01D9E33B10054021D;
+			remoteInfo = SampleAppTurtle;
+		};
+		960D60E11D9E33B10054021D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960D60B91D9E33B10054021D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960D60C01D9E33B10054021D;
+			remoteInfo = SampleAppTurtle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960A319B1D9E61DA00A9D34E /* center_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "center_button@2x.png"; path = "../center_button@2x.png"; sourceTree = "<group>"; };
+		960D60C11D9E33B10054021D /* SampleAppTurtle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppTurtle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960D60C41D9E33B10054021D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960D60C61D9E33B10054021D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960D60C91D9E33B10054021D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960D60CB1D9E33B10054021D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960D60CE1D9E33B10054021D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960D60D01D9E33B10054021D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960D60D51D9E33B10054021D /* SampleAppTurtleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppTurtleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960D60D91D9E33B10054021D /* SampleAppTurtleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppTurtleTests.swift; sourceTree = "<group>"; };
+		960D60DB1D9E33B10054021D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960D60E01D9E33B10054021D /* SampleAppTurtleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppTurtleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960D60E41D9E33B10054021D /* SampleAppTurtleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppTurtleUITests.swift; sourceTree = "<group>"; };
+		960D60E61D9E33B10054021D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960D60F71D9E35D20054021D /* カメラアイコン9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "カメラアイコン9.png"; path = "../../Downloads/icon_summary/カメラアイコン9.png"; sourceTree = "<group>"; };
+		960D60F91D9E35DE0054021D /* 普通の家のアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "普通の家のアイコン.png"; path = "../../Downloads/icon_summary/普通の家のアイコン.png"; sourceTree = "<group>"; };
+		960D60FB1D9E35EF0054021D /* ベルの無料のアイコン素材 その2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ベルの無料のアイコン素材 その2.png"; path = "../../Downloads/icon_summary/ベルの無料のアイコン素材 その2.png"; sourceTree = "<group>"; };
+		960D61011D9E3A030054021D /* BigCenterTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BigCenterTabBarController.swift; path = ../BigCenterTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960D60BE1D9E33B10054021D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D60D21D9E33B10054021D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D60DD1D9E33B10054021D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960D60B81D9E33B10054021D = {
+			isa = PBXGroup;
+			children = (
+				960D60F21D9E35280054021D /* resourses */,
+				960D60C31D9E33B10054021D /* SampleAppTurtle */,
+				960D60D81D9E33B10054021D /* SampleAppTurtleTests */,
+				960D60E31D9E33B10054021D /* SampleAppTurtleUITests */,
+				960D60C21D9E33B10054021D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960D60C21D9E33B10054021D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960D60C11D9E33B10054021D /* SampleAppTurtle.app */,
+				960D60D51D9E33B10054021D /* SampleAppTurtleTests.xctest */,
+				960D60E01D9E33B10054021D /* SampleAppTurtleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960D60C31D9E33B10054021D /* SampleAppTurtle */ = {
+			isa = PBXGroup;
+			children = (
+				960D61011D9E3A030054021D /* BigCenterTabBarController.swift */,
+				960D60C41D9E33B10054021D /* AppDelegate.swift */,
+				960D60C61D9E33B10054021D /* ViewController.swift */,
+				960D60C81D9E33B10054021D /* Main.storyboard */,
+				960D60CB1D9E33B10054021D /* Assets.xcassets */,
+				960D60CD1D9E33B10054021D /* LaunchScreen.storyboard */,
+				960D60D01D9E33B10054021D /* Info.plist */,
+			);
+			path = SampleAppTurtle;
+			sourceTree = "<group>";
+		};
+		960D60D81D9E33B10054021D /* SampleAppTurtleTests */ = {
+			isa = PBXGroup;
+			children = (
+				960D60D91D9E33B10054021D /* SampleAppTurtleTests.swift */,
+				960D60DB1D9E33B10054021D /* Info.plist */,
+			);
+			path = SampleAppTurtleTests;
+			sourceTree = "<group>";
+		};
+		960D60E31D9E33B10054021D /* SampleAppTurtleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				960D60E41D9E33B10054021D /* SampleAppTurtleUITests.swift */,
+				960D60E61D9E33B10054021D /* Info.plist */,
+			);
+			path = SampleAppTurtleUITests;
+			sourceTree = "<group>";
+		};
+		960D60F21D9E35280054021D /* resourses */ = {
+			isa = PBXGroup;
+			children = (
+				960D60F71D9E35D20054021D /* カメラアイコン9.png */,
+				960A319B1D9E61DA00A9D34E /* center_button@2x.png */,
+				960D60F91D9E35DE0054021D /* 普通の家のアイコン.png */,
+				960D60FB1D9E35EF0054021D /* ベルの無料のアイコン素材 その2.png */,
+			);
+			name = resourses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960D60C01D9E33B10054021D /* SampleAppTurtle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960D60E91D9E33B10054021D /* Build configuration list for PBXNativeTarget "SampleAppTurtle" */;
+			buildPhases = (
+				960D60BD1D9E33B10054021D /* Sources */,
+				960D60BE1D9E33B10054021D /* Frameworks */,
+				960D60BF1D9E33B10054021D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAppTurtle;
+			productName = SampleAppTurtle;
+			productReference = 960D60C11D9E33B10054021D /* SampleAppTurtle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960D60D41D9E33B10054021D /* SampleAppTurtleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960D60EC1D9E33B10054021D /* Build configuration list for PBXNativeTarget "SampleAppTurtleTests" */;
+			buildPhases = (
+				960D60D11D9E33B10054021D /* Sources */,
+				960D60D21D9E33B10054021D /* Frameworks */,
+				960D60D31D9E33B10054021D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960D60D71D9E33B10054021D /* PBXTargetDependency */,
+			);
+			name = SampleAppTurtleTests;
+			productName = SampleAppTurtleTests;
+			productReference = 960D60D51D9E33B10054021D /* SampleAppTurtleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960D60DF1D9E33B10054021D /* SampleAppTurtleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960D60EF1D9E33B10054021D /* Build configuration list for PBXNativeTarget "SampleAppTurtleUITests" */;
+			buildPhases = (
+				960D60DC1D9E33B10054021D /* Sources */,
+				960D60DD1D9E33B10054021D /* Frameworks */,
+				960D60DE1D9E33B10054021D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960D60E21D9E33B10054021D /* PBXTargetDependency */,
+			);
+			name = SampleAppTurtleUITests;
+			productName = SampleAppTurtleUITests;
+			productReference = 960D60E01D9E33B10054021D /* SampleAppTurtleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960D60B91D9E33B10054021D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "kentaro aoki";
+				TargetAttributes = {
+					960D60C01D9E33B10054021D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					960D60D41D9E33B10054021D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 960D60C01D9E33B10054021D;
+					};
+					960D60DF1D9E33B10054021D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 960D60C01D9E33B10054021D;
+					};
+				};
+			};
+			buildConfigurationList = 960D60BC1D9E33B10054021D /* Build configuration list for PBXProject "SampleAppTurtle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960D60B81D9E33B10054021D;
+			productRefGroup = 960D60C21D9E33B10054021D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960D60C01D9E33B10054021D /* SampleAppTurtle */,
+				960D60D41D9E33B10054021D /* SampleAppTurtleTests */,
+				960D60DF1D9E33B10054021D /* SampleAppTurtleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960D60BF1D9E33B10054021D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D60FA1D9E35DE0054021D /* 普通の家のアイコン.png in Resources */,
+				960D60CF1D9E33B10054021D /* LaunchScreen.storyboard in Resources */,
+				960D60FC1D9E35EF0054021D /* ベルの無料のアイコン素材 その2.png in Resources */,
+				960A319C1D9E61DA00A9D34E /* center_button@2x.png in Resources */,
+				960D60CC1D9E33B10054021D /* Assets.xcassets in Resources */,
+				960D60F81D9E35D20054021D /* カメラアイコン9.png in Resources */,
+				960D60CA1D9E33B10054021D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D60D31D9E33B10054021D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D60DE1D9E33B10054021D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960D60BD1D9E33B10054021D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D60C71D9E33B10054021D /* ViewController.swift in Sources */,
+				960D61021D9E3A030054021D /* BigCenterTabBarController.swift in Sources */,
+				960D60C51D9E33B10054021D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D60D11D9E33B10054021D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D60DA1D9E33B10054021D /* SampleAppTurtleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D60DC1D9E33B10054021D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D60E51D9E33B10054021D /* SampleAppTurtleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960D60D71D9E33B10054021D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960D60C01D9E33B10054021D /* SampleAppTurtle */;
+			targetProxy = 960D60D61D9E33B10054021D /* PBXContainerItemProxy */;
+		};
+		960D60E21D9E33B10054021D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960D60C01D9E33B10054021D /* SampleAppTurtle */;
+			targetProxy = 960D60E11D9E33B10054021D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960D60C81D9E33B10054021D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960D60C91D9E33B10054021D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960D60CD1D9E33B10054021D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960D60CE1D9E33B10054021D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960D60E71D9E33B10054021D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		960D60E81D9E33B10054021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960D60EA1D9E33B10054021D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleAppTurtle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentahub.SampleAppTurtle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		960D60EB1D9E33B10054021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleAppTurtle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentahub.SampleAppTurtle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		960D60ED1D9E33B10054021D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleAppTurtleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentahub.SampleAppTurtleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleAppTurtle.app/SampleAppTurtle";
+			};
+			name = Debug;
+		};
+		960D60EE1D9E33B10054021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleAppTurtleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentahub.SampleAppTurtleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleAppTurtle.app/SampleAppTurtle";
+			};
+			name = Release;
+		};
+		960D60F01D9E33B10054021D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SampleAppTurtleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentahub.SampleAppTurtleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SampleAppTurtle;
+			};
+			name = Debug;
+		};
+		960D60F11D9E33B10054021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SampleAppTurtleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentahub.SampleAppTurtleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SampleAppTurtle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960D60BC1D9E33B10054021D /* Build configuration list for PBXProject "SampleAppTurtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D60E71D9E33B10054021D /* Debug */,
+				960D60E81D9E33B10054021D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960D60E91D9E33B10054021D /* Build configuration list for PBXNativeTarget "SampleAppTurtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D60EA1D9E33B10054021D /* Debug */,
+				960D60EB1D9E33B10054021D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960D60EC1D9E33B10054021D /* Build configuration list for PBXNativeTarget "SampleAppTurtleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D60ED1D9E33B10054021D /* Debug */,
+				960D60EE1D9E33B10054021D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960D60EF1D9E33B10054021D /* Build configuration list for PBXNativeTarget "SampleAppTurtleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D60F01D9E33B10054021D /* Debug */,
+				960D60F11D9E33B10054021D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960D60B91D9E33B10054021D /* Project object */;
+}
